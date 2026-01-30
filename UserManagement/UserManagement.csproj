@@ -15,7 +15,7 @@
 			role-based authorization, and complete user management features using ASP.NET Core Identity.
 		</Description>
 		<PackageTags>authentication;user-management;identity;jwt;aspnetcore;authorization;security</PackageTags>
-		<PackageProjectUrl>https://github.com/mdturin/SharedLib/UserManagement</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/mdturin/SharedLib</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mdturin/SharedLib</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
