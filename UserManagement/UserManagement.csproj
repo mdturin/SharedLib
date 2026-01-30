@@ -6,13 +6,12 @@
 		<Nullable>enable</Nullable>
 		
 		<!-- NuGet Package Properties -->
-		<PackageId>UserManagement</PackageId>
+		<PackageId>Turin.Lib.UserManagement</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Md Mujahedul Azad</Authors>
 		<Company>Tech_Turin</Company>
 		<Description>
-			A comprehensive, reusable user management library for .NET applications with JWT authentication, registration, login, 
-			role-based authorization, and complete user management features using ASP.NET Core Identity.
+			A comprehensive, reusable user management library for .NET applications with JWT authentication, registration, login, role-based authorization, and complete user management features using ASP.NET Core Identity.
 		</Description>
 		<PackageTags>authentication;user-management;identity;jwt;aspnetcore;authorization;security</PackageTags>
 		<PackageProjectUrl>https://github.com/mdturin/SharedLib</PackageProjectUrl>
