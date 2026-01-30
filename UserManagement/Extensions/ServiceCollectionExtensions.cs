@@ -48,7 +48,7 @@ public static class ServiceCollectionExtensions
                 migrationsAssembly = assembly.GetName().Name;
             }
 
-            options.UseSqlServer(connectionString, 
+            options.UseSqlite(connectionString, 
                 sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly));
         });
 

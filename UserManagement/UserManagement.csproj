@@ -7,7 +7,7 @@
 		
 		<!-- NuGet Package Properties -->
 		<PackageId>Turin.Lib.UserManagement</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		
 		<Authors>Md Mujahedul Azad</Authors>
 		<Company>Tech_Turin</Company>
@@ -40,7 +40,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.23" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.23" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.23" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.23" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.23">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
