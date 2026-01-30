@@ -1,4 +1,5 @@
 using System.Text;
+using System.Reflection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,8 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         IConfiguration configuration,
         string connectionString,
-        Action<IdentityOptions>? identityOptions = null)
+        Action<IdentityOptions>? identityOptions = null,
+        string? migrationsAssembly = null)
     {
         // Configure JWT settings
         services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
@@ -36,9 +38,19 @@ public static class ServiceCollectionExtensions
             throw new InvalidOperationException("JWT settings are not properly configured.");
         }
 
-        // Add DbContext
+        // Add DbContext with migrations assembly configuration
         services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(connectionString));
+        {
+            if (string.IsNullOrEmpty(migrationsAssembly))
+            {
+                // Try to get the calling assembly name
+                var assembly = Assembly.GetCallingAssembly();
+                migrationsAssembly = assembly.GetName().Name;
+            }
+
+            options.UseSqlServer(connectionString, 
+                sqlOptions => sqlOptions.MigrationsAssembly(migrationsAssembly));
+        });
 
         // Add Identity
         var identityBuilder = services.AddIdentity<ApplicationUser, IdentityRole>(options =>

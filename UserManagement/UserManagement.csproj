@@ -7,7 +7,7 @@
 		
 		<!-- NuGet Package Properties -->
 		<PackageId>Turin.Lib.UserManagement</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		
 		<Authors>Md Mujahedul Azad</Authors>
 		<Company>Tech_Turin</Company>
