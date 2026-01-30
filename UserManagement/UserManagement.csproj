@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		
 		<!-- NuGet Package Properties -->
-		<PackageId>UserManagement.Library</PackageId>
+		<PackageId>UserManagement</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Md Mujahedul Azad</Authors>
 		<Company>Tech_Turin</Company>
