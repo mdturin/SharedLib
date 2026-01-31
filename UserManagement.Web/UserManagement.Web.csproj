@@ -39,4 +39,11 @@
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.9" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="README.md">
+        <Pack>true</Pack>
+        <PackagePath>/</PackagePath>
+      </None>
+    </ItemGroup>
+
 </Project>
