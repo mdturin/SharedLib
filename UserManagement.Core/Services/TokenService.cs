@@ -4,11 +4,11 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using UserManagement.Configuration;
-using UserManagement.Interfaces;
-using UserManagement.Models;
+using UserManagement.Core.Configuration;
+using UserManagement.Core.Interfaces;
+using UserManagement.Core.Models;
 
-namespace UserManagement.Services;
+namespace UserManagement.Core.Services;
 
 /// <summary>
 /// Service for JWT token generation and validation

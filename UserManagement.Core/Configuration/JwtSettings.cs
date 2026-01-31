@@ -1,4 +1,4 @@
-namespace UserManagement.Configuration;
+namespace UserManagement.Core.Configuration;
 
 /// <summary>
 /// JWT configuration settings

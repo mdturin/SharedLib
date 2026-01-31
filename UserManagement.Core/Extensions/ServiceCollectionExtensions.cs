@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using UserManagement.Configuration;
-using UserManagement.Data;
-using UserManagement.Models;
-using UserManagement.Services;
-using UserManagement.Interfaces;
+using UserManagement.Core.Configuration;
+using UserManagement.Core.Data;
+using UserManagement.Core.Models;
+using UserManagement.Core.Services;
+using UserManagement.Core.Interfaces;
 
-namespace UserManagement.Extensions;
+namespace UserManagement.Core.Extensions;
 
 /// <summary>
 /// Extension methods for configuring user management services

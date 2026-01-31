@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using UserManagement.DTOs;
-using UserManagement.Interfaces;
-using UserManagement.Models;
+using UserManagement.Core.DTOs;
+using UserManagement.Core.Interfaces;
+using UserManagement.Core.Models;
 
-namespace UserManagement.Services;
+namespace UserManagement.Core.Services;
 
 /// <summary>
 /// Service for user management operations

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using UserManagement.Models;
+using UserManagement.Core.Models;
 
-namespace UserManagement.Data;
+namespace UserManagement.Core.Data;
 
 /// <summary>
 /// Database context for user management

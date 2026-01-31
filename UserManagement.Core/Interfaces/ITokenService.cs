@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using UserManagement.Models;
+using UserManagement.Core.Models;
 
-namespace UserManagement.Interfaces;
+namespace UserManagement.Core.Interfaces;
 
 /// <summary>
 /// Interface for JWT token generation and validation

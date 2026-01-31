@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using UserManagement.Configuration;
-using UserManagement.DTOs;
-using UserManagement.Interfaces;
-using UserManagement.Models;
+using UserManagement.Core.Configuration;
+using UserManagement.Core.DTOs;
+using UserManagement.Core.Interfaces;
+using UserManagement.Core.Models;
 
-namespace UserManagement.Services;
+namespace UserManagement.Core.Services;
 
 /// <summary>
 /// Service for user authentication operations

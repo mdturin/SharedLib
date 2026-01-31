@@ -1,6 +1,6 @@
-using UserManagement.DTOs;
+using UserManagement.Core.DTOs;
 
-namespace UserManagement.Interfaces;
+namespace UserManagement.Core.Interfaces;
 
 /// <summary>
 /// Interface for authentication service
