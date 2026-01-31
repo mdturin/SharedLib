@@ -4,6 +4,31 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        
+        <!-- NuGet Package Properties -->
+	<PackageId>Turin.Lib.UserManagement.Web</PackageId>
+	<Version>1.1.1</Version>
+	
+	<Authors>Md Mujahedul Azad</Authors>
+	<Company>Tech_Turin</Company>
+	<Description>
+		A comprehensive, reusable user management library for .NET applications with JWT authentication, registration, login, role-based authorization, and complete user management features using ASP.NET Core Identity.
+	</Description>
+	<PackageTags>authentication;user-management;identity;jwt;aspnetcore;authorization;security</PackageTags>
+	<PackageProjectUrl>https://github.com/mdturin/SharedLib</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/mdturin/SharedLib</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	<Copyright>Copyright © 2026</Copyright>
+
+	<!-- Repository and Source Link -->
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+	<RootNamespace>UserManagement.Web</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
