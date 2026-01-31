@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		
 		<!-- NuGet Package Properties -->
-		<PackageId>Turin.Lib.UserManagement</PackageId>
+		<PackageId>Turin.Lib.UserManagement.Core</PackageId>
 		<Version>1.0.3</Version>
 		
 		<Authors>Md Mujahedul Azad</Authors>
@@ -29,6 +29,7 @@
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<RootNamespace>UserManagement.Core</RootNamespace>
 	</PropertyGroup>
 	
 	<!-- Include README in package -->
